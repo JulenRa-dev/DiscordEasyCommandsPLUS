@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.1' 
+VERSION = '0.0.2' 
 DESCRIPTION = 'Discord easy commands plus'
 LONG_DESCRIPTION = 'Discord easy commands plus, a library to make discord bots in a easy way'
 
