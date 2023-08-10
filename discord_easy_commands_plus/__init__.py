@@ -31,7 +31,7 @@ class EasyBotPlus(discord.Client):
         return
       else:
         for command in self.__commands:
-            if(message.content == command[0]):
+            if(message.content == command[0] and "{0.author}".format(message) != "{0}".format(self.user)):
                 print("Channel: {0.channel} | User {0.author} : {0.content}".format(message))
                 for i in range(len(command[1])):
                   typeNotDefined = True
@@ -55,7 +55,7 @@ class EasyBotPlus(discord.Client):
     def setCommand(self, command, text):
         new_command = (command, text)
         self.__commands.append(new_command)
-    def run(self, token):
-        self.setCommand("!powered",["mI'm running using the discord_easy_commands_plus python library, that is not aviable on pip yet."])
+    def run(self, token=None):
+        self.setCommand("!powered",["mI'm running using the discord_easy_commands_plus python library, that is not available on pip yet."])
         self.keep_alive()
         return super().run(token)
