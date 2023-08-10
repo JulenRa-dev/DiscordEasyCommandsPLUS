@@ -1,6 +1,6 @@
 # DiscordEasyCommandsPLUS
 
-This library is a mod of the "Discord easy commands" library made by Linkfy. This library adds useful commands like sending more than one message, and comming soon there will be even more things. To invite the bot to your server, just go to this link:
+This library is a mod of the "Discord easy commands" library made by Linkfy. This library adds useful commands like sending more than one message, and comming soon there will be even more things. To invite the test bot to your server, just go to this link:
 https://discord.com/api/oauth2/authorize?client_id=1138785082132398110&permissions=8&scope=bot
 
 Current functions:
